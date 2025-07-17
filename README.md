@@ -1,8 +1,8 @@
 <h1 align="center">
-  vatsalsinghkv.vercel.app
+  Omosayansi Moka Portfolio
 </h1>
 <p align="center">
-  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+  A modern portfolio website i.e. <a href="https://omosayansi-portfolio.vercel.app" target="_blank">omosayansi-portfolio.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
 </p>
 
 <p align="center">
@@ -12,20 +12,30 @@
   <img src="https://img.shields.io/badge/Version-2.0.0-blue"/ >
 </p>
 
-<br>
+- 👋 Hi, I'm Omosayansi Moka
+- 👀 My interest is in SaaS Products ...
+- 🌱 I'm currently building SaaS, PaaS related products with good UI/UX
+- 💞️ I'm looking to collaborate with fellow #buildinpublic indie hackers
+- For collaboration, gigs and tasks matching hit me up.
 
-[![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/)
+<div align="center">
+
+### Let's connect! 🤝
+
+</div>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/omosayansi-moka/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/omosayansi-moka/"></a>
+  <a href="https://x.com/omosayansii"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white&link=https://x.com/omosayansii"></a>
+  <a href="mailto:indiemakerdev@gmail.com"><img src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:indiemakerdev@gmail.com"></a>
+</p>
 
 ## Table of Contents
 
 - [Sections](#sections)
 - [Built With](#built-with)
-- [How to use](#how-to-use)
-- [Contributing](#contributing)
-- [Continuous Development](#continuous-development)
+- [Projects](#projects)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-- [Show Your Support](#show-your-support)
 
 ## Sections
 
@@ -43,88 +53,33 @@
 - [TailwindCSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/) - For animations
 - [Iconify](https://icon-sets.iconify.design/) - For icons
-- [Lottie Files](https://lottiefiles.com/) - For illustrations
 
-## How to use
+## Projects
 
-###### To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js (v20.18.0)](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com) installed on your computer).
-
-1. Fork this repository and clone the project
-
-###### Please give me proper credit by linking back to [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app).
-
-```bash
-  git clone https://github.com/<YOUR USERNAME>/portfolio-website.git
-```
-
-2. Go to the project directory
-
-```bash
-  cd portfolio-website
-```
-
-3. Install dependencies
-
-```bash
-  yarn
-```
-
-4. Start the server
-
-```bash
-  yarn dev
-```
-
-- To change the content, edit `src/lib/content/`
-
-- To change the **resume**, change `/public/resume.pdf` with your resume (name must be `resume.pdf`)
-
-- To change the **About Section**, edit `src/containers/About.tsx`
-
-- To change the theme, edit `src/styles/globals.css`
-
-## Contributing
-
-###### Join Our Discord: [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
-
-Remember, Good PR makes you a Good contributor!
-
-1. Run the project locally, refer [how to use](#how-to-use).
-2. Follow [Contributing Guidelines](/CONTRIBUTING.md).
-
-<div align="center">
-  <a href="https://github.com/vatsalsinghkv/portfolio-website/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=vatsalsinghkv/portfolio-website" />
-  </a>
-</div>
-
-## Continuous Development
-
-- [ ] Case Study Page
-- [x] Migrate to Next 13
-- [ ] Migrate icons from iconify to lucid-icons
-- [ ] Improve nav-link hover animation
-- [ ] Add test cases
-- [ ] Separate route (archive) for all the projects with filters
+- **TesaDeal**: An innovative e-commerce platform
+- **Copysai**: AI-powered copywriting tool
+- **Confessa**: Anonymous messaging platform
+- **Webuildaa Hunt**: Product discovery community
+- **Referz**: Referral marketing platform
+- **FlexCash**: Competitive leaderboard payments
 
 ## Contact
 
-- Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
-- Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
-- Github - [@vatsalsinghkv](https://github.com/vatsalsinghkv)
-- LinkedIn - [@vatsalsinghkv](https://www.linkedin.com/in/vatsalsinghkv/)
-- Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
-- Instagram - [@vatsalsinghkv](https://www.instagram.com/vatsalsinghkv)
-- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv)
+You can reach out to me through:
 
-## Acknowledgements
+- Email: indiemakerdev@gmail.com
+- Twitter: [@omosayansii](https://x.com/omosayansii)
+- GitHub: [@kiongosss](https://github.com/kiongosss)
 
-- [https://developer-portfolio-1hanzla100.vercel.app/](https://developer-portfolio-1hanzla100.vercel.app/) - Design Inspiration
-- [https://brittanychiang.com/](https://brittanychiang.com/) - Design Inspiration
-- [https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3](https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3) - Cursor Animation Inspiration
+---
 
-## Show Your Support
+<div align="center">
 
-Give a ⭐️ if you liked this project!
+#### ✨ This README is special! It makes magic happen! ✨
 
-[Scroll to Top](#--vatsalsinghkvvercelapp)
+</div>
+
+<!---
+kiongosss/kiongosss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
