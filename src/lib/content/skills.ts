@@ -13,9 +13,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/frontend-dark.json',
       },
       points: [
-        'Building full-stack web applications using Next.js with TypeScript, TailwindCSS, ShadCN, and Prisma',
-        'Developing responsive single-page applications using React.js',
-        'Creating RESTful APIs using Express for backend development',
+        'Building SaaS products and web applications using React, Next.js, and modern JavaScript',
+        'Developing responsive and user-friendly interfaces with TailwindCSS and modern UI libraries',
+        'Creating scalable backend solutions with Node.js and serverless technologies',
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
@@ -40,20 +40,21 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       id: getId(),
-      title: 'UI/UX designing',
+      title: 'Product Development & Entrepreneurship',
       lottie: {
         light: '/lotties/designing.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
-        'Experience in designing user-friendly interfaces with figma',
-        'Experience in developing design systems and style guides',
-        'Providing user-friendly design solutions',
+        'Building and launching digital products with a focus on solving real-world problems',
+        'Experience in #buildinpublic and growing online communities around products',
+        'Implementing lean startup methodologies and iterative development processes',
       ],
       softwareSkills: [
         { name: 'figma', icon: 'logos:figma' },
-        { name: 'adobe illustrator', icon: 'logos:adobe-illustrator' },
-        { name: 'adobe photoshop', icon: 'logos:adobe-photoshop' },
+        { name: 'notion', icon: 'logos:notion-icon' },
+        { name: 'github', icon: 'logos:github-icon' },
+        { name: 'blockchain', icon: 'logos:ethereum' },
       ],
     },
   ],

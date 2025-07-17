@@ -1,11 +1,11 @@
 'use client';
-import { ProjectType } from '@/lib/types';
 
 import { Icon } from '@iconify/react';
 import { motion, MotionProps } from 'framer-motion';
-import { useEffect, useState } from 'react';
 
-const ProjectCard = ({
+import { ProjectType } from '@/lib/types';
+
+const TextLogoCard = ({
   name,
   url,
   repo,
@@ -13,14 +13,7 @@ const ProjectCard = ({
   tags,
   ...rest
 }: ProjectType & MotionProps) => {
-  // To avoid hydration failed error
-  const [domLoaded, setDomLoaded] = useState(false);
-
-  useEffect(() => {
-    setDomLoaded(true);
-  }, []);
-
-  return domLoaded ? (
+  return (
     <motion.div {...rest} className="w-full max-w-[350px]">
       <button
         onClick={(e) => {
@@ -60,9 +53,7 @@ const ProjectCard = ({
         </div>
       </button>
     </motion.div>
-  ) : (
-    <></>
   );
 };
 
-export default ProjectCard;
+export default TextLogoCard;

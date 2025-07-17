@@ -1,0 +1,68 @@
+/* Custom font styles */
+
+/* Apply Livvic to all headings */
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-primary,
+.heading-secondary,
+.heading-tertiary,
+section > div > h2,
+.section-heading,
+[class*='heading'],
+.font-bold,
+.font-semibold,
+.text-xl,
+.text-2xl,
+.text-3xl,
+.text-4xl,
+.text-5xl {
+  font-family: 'Livvic', sans-serif !important;
+  font-weight: 600;
+}
+
+/* Apply TikTok Sans Light to body text */
+body,
+p,
+span,
+div,
+li,
+a:not(.font-signature *):not(#navbar *) {
+  font-family: 'Tiktok Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* Keep the agustina font for project logos and header name */
+.font-agustina,
+.font-signature {
+  font-family: 'agustina', sans-serif !important;
+}
+
+/* Specific heading styles */
+.heading-primary {
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-weight: 600;
+}
+
+.heading-tertiary {
+  font-weight: 500;
+}
+
+/* Project cards and featured projects */
+.project-card h3,
+.featured-project h3,
+.featured-project-title {
+  font-family: 'Livvic', sans-serif !important;
+  font-weight: 600;
+}
+
+/* Ensure project logos still use Agustina */
+.project-card .font-agustina,
+.featured-project .font-agustina {
+  font-family: 'agustina', sans-serif !important;
+}

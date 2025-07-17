@@ -1,3 +1,5 @@
+"use client";
+
 import { socialSection } from '@/lib/content/social';
 
 import { SocialIcon } from '@/components';

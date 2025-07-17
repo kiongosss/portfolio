@@ -3,7 +3,8 @@ import { projectsSection } from '@/lib/content/projects';
 import { PROJECTS_INITIALLY } from '@/lib/utils/config';
 import { sortByYear } from '@/lib/utils/helper';
 
-import { Button, ProjectCard, Wrapper } from '@/components';
+import { Button, Wrapper } from '@/components';
+import TextLogoCard from '@/components/ui/TextLogoCard';
 
 import { getSectionAnimation, projectVariants } from '@/styles/animations';
 
@@ -26,7 +27,7 @@ const Projects = () => {
         {sortByYear(visibleProjects).map((project, i) => {
           if (i < PROJECTS_INITIALLY) {
             return (
-              <ProjectCard
+              <TextLogoCard
                 {...project}
                 key={project.id}
                 variants={projectVariants}
@@ -39,7 +40,7 @@ const Projects = () => {
           }
 
           return (
-            <ProjectCard
+            <TextLogoCard
               {...project}
               key={project.id}
               variants={projectVariants}

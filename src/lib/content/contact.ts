@@ -3,10 +3,10 @@ import { ContactSectionType } from '@/lib/types/sections';
 
 export const contactSection: ContactSectionType = {
   title: 'get in touch',
-  subtitle: "what's next",
+  subtitle: "let's connect",
   paragraphs: [
-    'I’m currently looking for a remote job or any new opportunities.',
-    'Whether you have a project to discuss or just want to say hi, my inbox is open for all!',
+    "I'm always interested in new collaborations and opportunities in the web development and SaaS space.",
+    "Whether you want to discuss a project, explore potential partnerships, or just connect with a fellow indie hacker, feel free to reach out!",
   ],
   link: `mailto:${author.email}`,
 };

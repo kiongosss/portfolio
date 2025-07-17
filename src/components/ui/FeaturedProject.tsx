@@ -1,10 +1,8 @@
 import { FeaturedProjectType } from '@/lib/types';
-import { blurImageURL } from '@/lib/utils/config';
 import { cn } from '@/lib/utils/helper';
 
 import { Icon } from '@iconify/react';
 import { motion, MotionProps } from 'framer-motion';
-import Image from 'next/image';
 import Link from 'next/link';
 
 interface Props extends FeaturedProjectType, MotionProps {
@@ -12,7 +10,6 @@ interface Props extends FeaturedProjectType, MotionProps {
 }
 
 const FeaturedProject = ({
-  img,
   name,
   url,
   repo,
@@ -38,15 +35,9 @@ const FeaturedProject = ({
             align === 'left' && 'ml-auto'
           )}
         >
-          <Image
-            src={img}
-            alt={name}
-            width={720}
-            height={480}
-            className="object-cover w-full h-full transition-transform duration-200 group-hover:scale-105"
-            placeholder="blur"
-            blurDataURL={blurImageURL}
-          />
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-bg-secondary to-accent/10">
+            <h2 className="font-agustina text-6xl text-accent p-8 text-center">{name}</h2>
+          </div>
           <Link
             href={`${url}`}
             target="_blank"
@@ -140,16 +131,10 @@ const FeaturedProject = ({
         {...rest}
       >
         {/* Image Header */}
-        <header className={cn('w-full')}>
-          <Image
-            src={img}
-            alt={name}
-            width={720}
-            height={480}
-            className="object-cover w-full h-full transition-transform duration-200 group-hover:scale-105"
-            placeholder="blur"
-            blurDataURL={blurImageURL}
-          />
+        <header className={cn('w-full h-[200px]')}>
+          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-bg-secondary to-accent/10">
+            <h2 className="font-agustina text-5xl text-accent p-4 text-center">{name}</h2>
+          </div>
           <Link
             href={`${url}`}
             target="_blank"

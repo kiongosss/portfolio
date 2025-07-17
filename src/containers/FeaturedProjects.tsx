@@ -3,7 +3,7 @@
 import featuredProjectsSection from '@/lib/content/featured-projects';
 
 import { Wrapper } from '@/components';
-import FeaturedProject from '@/components/ui/FeaturedProject';
+import FeaturedProjectSplit from '@/components/ui/FeaturedProjectSplit';
 
 import { getSectionAnimation } from '@/styles/animations';
 
@@ -22,7 +22,7 @@ const FeaturedProjects = () => {
 
       <div className="space-y-10 md:space-y-16 lg:space-y-36">
         {featuredProjectsSection.projects.map((project, i) => (
-          <FeaturedProject
+          <FeaturedProjectSplit
             key={project.id}
             align={i % 2 === 0 ? 'right' : 'left'}
             {...project}

@@ -8,6 +8,9 @@ module.exports = {
         signature: ['agustina', 'sans-serif'],
         sans: ['Inter', 'sans-serif'],
         mono: ['Roboto Mono', 'monospace'],
+        livvic: ['Livvic', 'sans-serif'],
+        tiktok: ['Tiktok Sans', 'sans-serif'],
+        agustina: ['agustina', 'sans-serif'],
       },
       screens: {
         xs: '375px',

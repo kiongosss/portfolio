@@ -24,32 +24,29 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is Vatsal Singh, a first-year MCA student at{' '}
+            Hi, my name is Omosayansi Moka, an indie hacker and entrepreneur passionate about{' '}
             <Link
-              href="https://bhu.ac.in/"
+              href="https://twitter.com/search?q=%23buildinpublic"
               target="_blank"
               className="text-accent"
             >
-              Banaras Hindu University
+              #buildinpublic
             </Link>
-            .<br /> I'm an Artist as well as crazy full stack web developer who
-            wants to explore every tech stack.
+            .<br /> I'm a full-stack developer with a focus on creating practical digital products and web applications that solve real problems.
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working at a
-            start-up -{' '}
+            Currently, I'm building{' '}
             <Link
-              href="https://www.pixelwand.live/"
+              href="https://tesadeal.com"
               target="_blank"
               className="text-accent"
             >
-              Pixelwand
+              tesadeal.com
             </Link>
-            .
+            , along with several other projects in the web development and SaaS space.
           </p>
           <p>
-            My main focus these days is learning mobile development and finding
-            a decent job.
+            My main focus these days is developing innovative web solutions, exploring new technologies, and connecting with like-minded developers and entrepreneurs.
           </p>
 
           {list && (

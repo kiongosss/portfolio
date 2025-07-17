@@ -7,33 +7,32 @@
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
-  facebook: 'https://www.facebook.com/vatsalsinghkv',
-  instagram: 'https://www.instagram.com/vatsalsinghkv',
-  twitter: 'https://twitter.com/vatsalsinghkv',
-  github: 'https://github.com/vatsalsinghkv',
-  linkedin: 'https://www.linkedin.com/in/vatsalsinghkv/',
+  twitter: 'https://twitter.com/kiongosss',
+  github: 'https://github.com/kiongosss',
+  linkedin: 'https://www.linkedin.com/in/omosayansi-moka/',
 };
 
 export const author = {
-  name: 'Vatsal Singh',
-  email: 'vatsalsinghkv@gmail.com',
+  name: 'Omosayansi Moka',
+  email: 'indiemakerdev@gmail.com',
 };
 
 export const seoData = {
-  title: 'Vatsal Singh | Front-End Developer',
+  title: 'Omosayansi Moka | Full-Stack Developer & Indie Hacker',
   description:
-    'Vatsal Singh is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Omosayansi Moka is a full-stack developer and indie hacker who specializes in building innovative web solutions and digital products.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
-  url: 'https://vatsalsinghkv.vercel.app/',
+  image: '/omosayansi-moka.png',
+  url: 'https://omosayansi-portfolio.vercel.app/',
   keywords: [
-    'Vatsal',
-    'Vatsal Singh',
-    '@vatsalsinghkv',
-    'vatsalsinghkv',
+    'Omosayansi',
+    'Omosayansi Moka',
+    '@kiongosss',
+    'kiongosss',
     'Portfolio',
-    'Vatsal Portfolio ',
-    'Vatsal Singh Portfolio',
+    'Indie Hacker',
+    'Full-Stack Developer',
+    'Web Developer',
+    'SaaS Developer',
   ],
 };

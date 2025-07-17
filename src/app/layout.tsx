@@ -5,6 +5,8 @@ import fontVariables from '@/lib/utils/fonts';
 import Cursor from '@/components/ui/Cursor';
 
 import '../styles/globals.css';
+import '../styles/fonts.css';
+import '../styles/header-fix.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -1,0 +1,15 @@
+/* Specific fix for the header name to ensure it uses the signature font */
+#navbar h1.font-signature {
+  font-family: 'agustina', sans-serif !important;
+  font-weight: normal !important;
+}
+
+/* Increase specificity to override any other styles */
+html body #navbar h1.font-signature {
+  font-family: 'agustina', sans-serif !important;
+}
+
+/* Target the link inside the header */
+#navbar h1.font-signature a {
+  font-family: 'agustina', sans-serif !important;
+}
